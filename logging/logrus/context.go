@@ -1,7 +1,7 @@
 package grpc_logrus
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus/ctxlogrus"
+	"github.com/iegomez/go-grpc-middleware/logging/logrus/ctxlogrus"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

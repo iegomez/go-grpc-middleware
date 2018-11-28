@@ -4,9 +4,9 @@
 package grpc_opentracing
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
+	"github.com/iegomez/go-grpc-middleware"
+	"github.com/iegomez/go-grpc-middleware/tags"
+	"github.com/iegomez/go-grpc-middleware/util/metautils"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
